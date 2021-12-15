@@ -13,7 +13,7 @@ import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
 import LandingPage from '../LandingPage/LandingPage';
 import LoginPage from '../LoginPage/LoginPage';
 import RegisterPage from '../RegisterPage/RegisterPage';
-
+import UserPage from '../UserPage/UserPage';
 import './App.css';
 
 function App() {
@@ -28,7 +28,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Nav />
         <Switch>
           {/* Visiting localhost:3000 will redirect to localhost:3000/home */}
           <Redirect exact from="/" to="/home" />
