@@ -11,8 +11,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
 
 import LandingPage from '../LandingPage/LandingPage';
-import LoginPage from '../LoginPage/LoginPage';
-import RegisterPage from '../RegisterPage/RegisterPage';
+import LoginPage from '../Login/LoginPage';
+import RegisterPage from '../Login/RegisterPage';
 import UserPage from '../UserPage/UserPage';
 import './App.css';
 
