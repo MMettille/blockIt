@@ -1,0 +1,29 @@
+@import "../Styles/BaseStyles.css";
+
+.header {
+  background-color: var(--light-grey);
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10000;
+  border-bottom: 1px solid var(--black);
+}
+
+.nav-container {
+  display: flex;
+  display: -webkit-flex;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.title {
+  font-size: 20px;
+  padding: 8px;
+  background-color: var(--main-color);
+}
